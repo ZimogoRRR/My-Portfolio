@@ -1,0 +1,49 @@
+@font-face {
+    font-family: fibberish;
+    src: url(../fonts/fibberish.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../img/bg.png);
+    background-position: center center;
+}
+.wrapper {
+    border: 22px solid #9698a4;
+    width: 1080px;
+    height: 100vh;
+    margin: auto;
+    background-color: #252a3d;
+}
+header {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: space-around;
+}
+.leftLantern {
+    background-image: url(../img/lantern.png);
+    width: 173px;
+    height: 249px;
+}
+.sign {
+    background-image: url(../img/sign.png);
+    width: 365px;
+    height: 250px;
+}
+h1 {
+  position: relative;
+  top: 125px;
+  text-align: center;
+  font-family: fibberish;
+  font-size: 60px;
+  color: #8a5631;
+}
+.rightLantern {
+    background-image: url(../img/lantern.png);
+    width: 173px;
+    height: 249px;
+}
