@@ -47,3 +47,9 @@ h1 {
     width: 173px;
     height: 249px;
 }
+
+.trophy {
+    background-image: url(../img/trophy.png);
+    width: 765px;
+    height: 345px;
+}
