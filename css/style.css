@@ -14,7 +14,7 @@ body {
 .wrapper {
     border: 22px solid #9698a4;
     width: 1080px;
-    height: 100vh;
+    height: 150vh;
     margin: auto;
     background-color: #252a3d;
 }
@@ -52,6 +52,52 @@ h1 {
     background-image: url(../img/trophy.png);
     width: 765px;
     height: 345px;
+    margin: auto; 
+}
+
+.technologiesText {
+    position: relative;
+    text-align: center;
+    font-family: fibberish;
+    font-size: 60px;
+    color: #151823;
+}
+.awards {
+    position: relative;
+    text-align: center;
+    font-family: fibberish;
+    font-size: 80px;
+    color: #151823;
+    margin-top: 80px;
+}
+.technologies {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+ 
+}
+
+
+.cSharp {
+
+    background-image: url(../img/Csharp.png);
+    width: 165px;
+    height: 165px;
+    margin: auto;
+    
+}
+.unity {
+    background-image: url(../img/Unity.png);
+    width: 165px;
+    height: 165px;
+    margin: auto;
+    
+}
+.aseprite {
+    background-image: url(../img/ase.png);
+    width: 165px;
+    height: 165px;
     margin: auto;
     
 }
