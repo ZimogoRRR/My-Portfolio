@@ -14,7 +14,7 @@ body {
 .wrapper {
     border: 22px solid #9698a4;
     width: 1080px;
-    height: 150vh;
+    height: 182vh;
     margin: auto;
     background-color: #252a3d;
 }
@@ -100,4 +100,21 @@ h1 {
     height: 165px;
     margin: auto;
     
+}
+
+.games {
+    position: relative;
+    text-align: center;
+    font-family: fibberish;
+    font-size: 80px;
+    color: #151823;
+    margin-top: 60px;
+}
+
+.gamepad{
+    background-image: url(../img/gamepad.png);
+    width: 450px;
+    height: 485px;
+    margin: auto;
+    margin-top: 31px;
 }
