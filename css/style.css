@@ -118,3 +118,24 @@ h1 {
     margin: auto;
     margin-top: 31px;
 }
+.wallGame {
+    background-image: url(../img/WallGameScreen.png);
+    width: 299px;
+    height: 268px;
+    border: 10px solid #9698a4;
+    position: relative;
+    font-family: fibberish;
+    font-size: 30px;
+    color: #151823;  
+    padding-left: 82px;
+
+}
+.gamesList {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+a {
+    text-decoration: none;  
+}
