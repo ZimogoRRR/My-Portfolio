@@ -53,6 +53,7 @@ h1 {
     width: 765px;
     height: 345px;
     margin: auto; 
+    
 }
 
 .technologiesText {
@@ -69,6 +70,7 @@ h1 {
     font-size: 80px;
     color: #151823;
     margin-top: 30px;
+    
 }
 .technologies {
     width: 100%;
@@ -104,10 +106,21 @@ h1 {
 
 .games {
     position: relative;
-    text-align: center;
     font-family: fibberish;
     font-size: 80px;
     color: #151823;
+    display: block;
+    width: 180px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.gamesSign {
+    position: relative;
+    font-family: fibberish;
+    font-size: 80px;
+    color: #151823;
+    text-align: center;
     margin-top: 60px;
 }
 
@@ -118,6 +131,7 @@ h1 {
     margin: auto;
     margin-top: 31px;
 }
+
 .wallGame {
     background-image: url(../img/WallGameScreen.png);
     width: 299px;
@@ -128,14 +142,45 @@ h1 {
     font-size: 30px;
     color: #151823;  
     padding-left: 82px;
+    display:inline-block;
 
 }
+
 .gamesList {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     margin-top: 80px;
 }
+
 a {
     text-decoration: none;  
+  
+}
+
+.awardsWarning {
+    color: #ffffff;
+    text-align: center;
+}
+
+.backArrow {
+    position: absolute;
+    background-image: url(../img/backArrow.png);
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    top: 32px;
+    margin-left: 10px;
+}
+
+.backArrowLink {
+    display: block;
+    width: 160px;
+}
+.gamepadLink {
+    display: block;
+    width: 450px;
+    height: 100%;
+    margin: auto;
 }
