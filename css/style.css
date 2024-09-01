@@ -122,9 +122,10 @@ header {
     font-size: 80px;
     color: #151823;
     display: block;
-    width: 180px;
+    width: 160px;
     margin: auto;
     margin-top: 60px;
+    
 }
 
 .gamesSign {
@@ -150,12 +151,9 @@ header {
     height: 268px;
     border: 10px solid #9698a4;
     position: relative;
-    font-family: fibberish;
-    font-size: 30px;
-    color: #151823;  
     padding-left: 82px;
     display:inline-block;
-
+    margin-bottom: 300px;
 }
 
 .gamesList {
@@ -169,11 +167,22 @@ a {
     text-decoration: none;  
   
 }
+.wallGameText {
+    font-family: fibberish;
+    font-size: 30px;
+    color: #151823;  
+}
 
-.awardsWarning {
-    color: #ffffff;
+.awardsHeading {
+    position: relative;
+    font-family: fibberish;
+    font-size: 60px;
+    color: #151823;
+    display: block;
     width: 160px;
-
+    margin: auto;
+    margin-top: 60px;
+    
 }
 
 .backArrow {
@@ -224,6 +233,11 @@ a {
   }
   .rightBlock {
     width: 160px;
+    height: 160px;
+  }
+  .gamesHeader {
+    display: flex;
+    justify-content: space-between;
     height: 160px;
   }
  
