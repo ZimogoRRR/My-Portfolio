@@ -240,4 +240,14 @@ a {
     justify-content: space-between;
     height: 160px;
   }
- 
+  .wallGameAndroid {
+    background-image: url(../img/WallGameScreen.png);
+    width: 299px;
+    height: 268px;
+    border: 10px solid #9698a4;
+    position: relative;
+    padding-left: 82px;
+    display:inline-block;
+    margin-bottom: 300px;
+    margin-bottom: 30px;
+}
